@@ -12,8 +12,6 @@ function App() {
     "box4",
     "box5",
     "box6",
-    "box5",
-    "box6",
     "box7",
     "box8",
     "box9",
@@ -22,9 +20,9 @@ function App() {
 
   return (
     <>
-      <div className=" bg-teal-800 flex flex-wrap justify-center items-center gap-8 p-8">
+      <div className=" bg-teal-800 flex flex-wrap justify-center items-center gap-8 p-8 ">
         {arr.map((item) => (
-          <div className="w-60 h-60 bg-white flex items-center justify-center  cursor-pointer hover:scale-105 duration-300 ease-in-out">
+          <div className="w-50 h-50 bg-white flex items-center justify-center  cursor-pointer hover:scale-105 duration-300 ease-in-out">
             <div className="text-2xl font-bold ">{item}</div>
           </div>
         ))}
